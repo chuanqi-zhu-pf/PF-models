@@ -1,0 +1,1 @@
+g++ -fopenmp main-omp.cpp -o main && rm -f data/*.csv data/phi/*.csv data/mob/*.csv data/phi/*.vtk data/mob/*.vtk fig/phi/*.png fig/mob/*.png && ./main && rm main && python3 plot2d.py

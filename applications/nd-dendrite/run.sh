@@ -1,0 +1,1 @@
+g++ -fopenmp alloy-nd.cpp -o main && rm -f data/*.csv data/tip/*.csv data/con/*.csv figures/con/*.png data/phi/*.csv figures/phi/*.png && ./main && rm main && python plot2d.py

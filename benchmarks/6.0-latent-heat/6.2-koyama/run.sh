@@ -1,0 +1,1 @@
+g++ ni.cpp -o main && rm -f data/temp/*.csv data/phi/*.csv data/*.vtk fig/temp/*.png fig/phi/*.png && ./main && rm main

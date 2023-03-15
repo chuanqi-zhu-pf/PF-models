@@ -1,0 +1,1 @@
+g++ phi.cpp -o main && rm -f data/*.csv fig/*.png && ./main && rm main && python plot2d.py

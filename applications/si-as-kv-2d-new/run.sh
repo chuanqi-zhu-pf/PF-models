@@ -1,0 +1,1 @@
+g++ alloy-omp.cpp -o main && rm -f data/*.csv data/con/*.csv data/con/*.vtk data/phi/*.csv data/temp/*.csv data/conl/*.csv data/con/*.png fig/con/*.png fig/conl/*.png fig/phi/*.png fig/temp/*.png && ./main && rm main && python plot1d.py

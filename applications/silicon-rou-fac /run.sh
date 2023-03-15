@@ -1,0 +1,1 @@
+g++ grain.cpp -o main && rm -f data/*.csv data/phi/*.vtk data/mob/*.vtk fig/*.png && ./main && rm main && python plot2d.py
